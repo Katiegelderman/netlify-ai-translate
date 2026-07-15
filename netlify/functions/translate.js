@@ -113,7 +113,7 @@ export async function handler(event) {
 function corsHeaders() {
   return {
     "Content-Type": "application/json",
-    "Access-Control-Allow-Origin": "https://YOUR_GITHUB_USERNAME.github.io",
+    "Access-Control-Allow-Origin": "https://katiegelderman.github.io",
     "Access-Control-Allow-Headers": "Content-Type",
     "Access-Control-Allow-Methods": "POST, OPTIONS"
   };
